@@ -6,7 +6,7 @@ Analyze movie comments
 
 ![screenshot from 2019-02-16 12-38-07](https://user-images.githubusercontent.com/37261780/52898570-2980ee80-31e8-11e9-80b5-5a6932c15904.png)
 
-> ### 2. Select film* -> you will see film statistics
+> ### 2. Select film* from comboBox -> you will see film statistics
 
 ![1550314007738](https://user-images.githubusercontent.com/37261780/52898683-36eaa880-31e9-11e9-8bf3-bc4f35b1a8b5.png)
 
