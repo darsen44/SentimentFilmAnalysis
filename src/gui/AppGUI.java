@@ -39,7 +39,7 @@ public class AppGUI {
             resultTextArea.setText("");
             String item = (String) comboBox.getSelectedItem();
             try {
-                String resultLine = getResponseResult("Result.txt", item);
+                String resultLine = getResponseResult("workFiles/Result.txt", item);
                 resultTextArea.append(resultLine);
                 new PieChart(item,resultLine);
             } catch (FileNotFoundException e) {

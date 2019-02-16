@@ -24,7 +24,7 @@ public class FilmResponses {
             if (positiveOrNegative(s) == 1) count++;
             else if (positiveOrNegative(s) == -1) count--;
         }
-        writeToFile(("Result.txt"),file.getName(), positiveResponse, negativeResponse,neutralResponse);
+        writeToFile(("workFiles/Result.txt"),file.getName(), positiveResponse, negativeResponse,neutralResponse);
         positiveResponse = negativeResponse = neutralResponse = 0;
         in.close();
     }

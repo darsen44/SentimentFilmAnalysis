@@ -16,17 +16,17 @@ public class WordAnalyzer {
 
     public static int positiveOrNegative(String s) throws IOException {
         s = s.replaceAll("[-+.^:,]", "").toLowerCase();
-        if (fileContainsWord("Positive.txt", s)) return 1;
-        else if (fileContainsWord("Negative.txt", s)) return -1;
+        if (fileContainsWord("workFiles/Positive.txt", s)) return 1;
+        else if (fileContainsWord("workFiles/Negative.txt", s)) return -1;
         s = lemmatizer(s);
         if ("".equals(s)) return 0;
-        if (fileContainsWord("Positive.txt", s)) return 1;
-        else if (fileContainsWord("Negative.txt", s)) return -1;
+        if (fileContainsWord("workFiles/Positive.txt", s)) return 1;
+        else if (fileContainsWord("workFiles/Negative.txt", s)) return -1;
         return 0;
     }
 
     private static String lemmatizer(String s) throws FileNotFoundException {
-        Scanner in = new Scanner(new File("Lemmatizer.txt"));
+        Scanner in = new Scanner(new File("workFiles/Lemmatizer.txt"));
         while (in.hasNextLine()) {
             String line = in.nextLine();
             if (line.contains(s)) {

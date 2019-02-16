@@ -6,7 +6,7 @@ import static backend.WriteToFile.writeFilmNames;
 
 public class App {
     public static void main(String[] args) {
-        writeFilmNames("Result.txt");
+        writeFilmNames("workFiles/Result.txt");
         JFrame frame = new JFrame("Аналізатор тональності");
         frame.setContentPane(new AppGUI().panelMain);
         frame.setBounds(600,300,600,300);
