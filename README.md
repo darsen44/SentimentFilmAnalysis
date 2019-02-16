@@ -1,2 +1,2 @@
-# SentimentFilmAnalysis(SFM)
+# SentimentFilmAnalysis(SFA)
 Analyze movie comments
