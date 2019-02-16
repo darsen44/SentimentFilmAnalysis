@@ -16,9 +16,9 @@ Analyze movie comments
 
 > ### 4.Program notifies about processing
 
-![screenshot from 2019-02-16 12-51-48](https://user-images.githubusercontent.com/37261780/52898792-e5431d80-31ea-11e9-8307-03632507aa6d.png)
-
 ![screenshot from 2019-02-16 12-52-07](https://user-images.githubusercontent.com/37261780/52898797-ec6a2b80-31ea-11e9-8e87-7f3f74ade3b3.png)
+
+![screenshot from 2019-02-16 12-51-48](https://user-images.githubusercontent.com/37261780/52898792-e5431d80-31ea-11e9-8307-03632507aa6d.png)
 
 Enjoy!
 
